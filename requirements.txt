@@ -2,12 +2,10 @@ asgiref==3.7.2
 cffi==1.16.0
 cryptography==41.0.7
 distlib==0.3.8
-dj-database-url==2.1.0
 Django==4.2.1
 filelock==3.13.1
 packaging==23.2
 platformdirs==4.1.0
-
 psycopg2-binary==2.9.9
 pycparser==2.21
 sqlparse==0.4.4
