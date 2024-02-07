@@ -1,0 +1,78 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="{% static 'common.css' %}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+</head>
+<body>
+     
+  <div class ="header">
+    <div class="logo"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225.12 34.24">
+      <defs>
+        <style>
+          .cls-1 {
+            fill: #f6aa1c;
+          }
+    
+          .cls-2 {
+            fill:#F2F4F3 ;
+          }
+        </style>
+      </defs>
+      <path class="cls-1" d="m17.51.85h15.13l17.51,32.64h-14.33l-2.57-5.58h-16.34l-2.57,5.58H0L17.51.85Zm3.08,19.09h8.96l-4.47-9.64-4.49,9.64Z"/>
+      <path class="cls-2" d="m57.75,32.39c1.62-3.32,3.5-6.75,5.75-9.76-1.69-.92-2.74-2.48-2.71-5.09v-.8c-.07-5.37,4.35-6.29,9.54-6.36,4.37,0,7.99.75,9.18,3.96h13.04C91.76,3.33,82.1.02,70.35,0c-12.24.05-22.34,3.59-22.29,15.93v2.38c-.03,7.66,3.84,11.93,9.7,14.08Z"/>
+      <path class="cls-1" d="m70.35,23.89c-.18,0-.36,0-.54-.01-1.13,1.27-2.13,2.67-3.05,4.07-1.24,1.88-2.37,3.82-3.43,5.81,2.21.33,4.57.48,7.02.48,11.75,0,21.42-3.3,22.22-14.33h-13.04c-1.17,3.21-4.81,3.98-9.18,3.98Z"/>
+      <path class="cls-2" d="m109.08,22.29h7.88c.14-3.44.22-6.89.25-10.34h-8.13V.8h-12.72v32.64h12.72v-11.15Z"/>
+      <path class="cls-1" d="m128.19.8v11.15h-5.45c-.03,3.45-.12,6.9-.26,10.34h5.71v11.15h12.75V.8h-12.75Z"/>
+      <path class="cls-2" d="m161.06.8v32.64h-12.72V.8h12.72Z"/>
+      <path class="cls-1" d="m209.22.8l-5.77,7.39c2.65,3.09,5.42,6.07,7.87,9.32l1.09-1.48v17.41h12.72V.8h-15.9Z"/>
+      <path class="cls-2" d="m207.1,21.04c-2.17-2.98-4.69-5.66-7.11-8.43l-3.52,4.51L183.74.8h-15.93v32.64h12.72v-17.41l12.75,17.41h6.36l8.44-11.53c-.36-.19-.7-.48-.99-.87Z"/>
+    </svg></div>
+    <ul class="sidebar"> 
+      <li onclick=closeSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>   
+      <li><a href="/Home">HOME</a></li>
+      <li><a href="/about">ABOUT</a></li>
+      <li><a href="/projects">PROJECTS</a></li>
+      <li><a href="/contact">CONTACT</a></li>
+    </ul>
+    <ul class="displayed">
+      <li class="hideonmobile"><a href="/Home">HOME</a></li>
+      <li class="hideonmobile"><a href="/about">ABOUT</a></li>
+      <li class="hideonmobile"><a href="/projects">PROJECTS</a></li>
+      <li class="hideonmobile"><a href="/contact">CONTACT</a></li>
+      <li class="menubar" onclick=showSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a> </li>
+    </ul>
+  </div>
+
+
+
+
+
+
+
+ 
+    
+  <script>
+    function showSidebar(){
+       const sidebar=document.querySelector('.sidebar')
+       sidebar.style.display='flex'
+     }
+   </script>
+   <script>
+     function closeSidebar(){
+        const sidebar=document.querySelector('.sidebar')
+        sidebar.style.display='none'
+      }
+    
+     </script>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;1,600;1,700&display=swap');
+/* Overiding the page default settings*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:black;
+}
+.picme{
+   background-image: url(about3.jpg);
+   
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+img{
+    max-width: 600px;
+    min-height: 200px;
+    border-radius: 10px;
+    border: 2px solid #F6AA1C;
+}
+.wrapper{
+    background-color: #F2F4F3;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px
+}
+.motivation{
+    background-color:#49111C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    min-height: 400px;
+    border-radius:10px ;
+    margin-bottom: 2.5px;
+}
+.motivation p{
+    font-family:'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-left: 30px;
+    color: #EDFFEC; 
+}
+.motivation h1{
+    color: #EDFFEC;
+    font-family:'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.juu{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #49111C;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.describe{
+    background-color:#F2F4F3;
+    max-width: 600px;
+    min-height: 400px;
+    border-radius: 10px;
+}
+.describe h1{
+    color:#49111C;
+    font-family:'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.describe p{
+    font-family:'Poppins',sans-serif;
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 30px;
+    color: #49111C;
+}
+footer{
+    background-color:black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+  
+   
+}
+footer h5{
+    color: #EDFFEC;
+    font-family: "Poppins" , sans-serif;
+    font-weight: 700;
+   
+}
